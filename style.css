@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+.myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.bg {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.793);
+    position: absolute;
+    transition: all 2s;
+
+}
+
+ul {
+    list-style-type: none;
+
+
+    margin-top: 2%;
+    margin-left: 78%;
+    margin-right: 20%;
+    padding: 0;
+    font-size: 99%;
+
+    position: absolute;
+
+
+}
+
+.w {
+
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 21%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    margin-bottom: 7px;
+
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+.w:hover{
+    background-color: #239ac5;
+}
+.w1:hover{
+    background-color: #239ac5;;
+}
+
+.w1 {
+
+
+    width: 100%;
+    border-radius: 30px;
+    padding-left: 12%;
+    padding-right: 7%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 100%;
+    margin-bottom: 7px;
+
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.i{
+    transition: all 2s;
+    position: absolute;
+    height: 20%;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-top: 2%;
+    
+}
+.p1{
+    margin-top: 60%;
+    position: absolute;
+    font-size: 100%;
+}
+
+
+/*
+@media (min-width:1000px) {
+    ul {
+        margin-left: 89%;
+    }
+}
+
+.bg:hover{
+    background-color: rgba(67, 160, 226, 0.708);
+    
+}
